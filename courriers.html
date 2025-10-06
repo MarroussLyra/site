@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Gestion des Courriers</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f4f9; color:#333; }
+        header { background:#000000; color:white; padding:2rem; text-align:center; }
+        header h1 { margin:0; }
+        main { padding:2rem; max-width:1000px; margin:auto; }
+        section { margin-bottom:2rem; background:white; padding:1.5rem; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1);}
+        h2 { color:#030506; }
+        ul { margin-left:1.5rem; }
+        img { max-width:100%; border-radius:8px; margin-top:1rem; }
+        .technologies span { display:inline-block; background:#4caf50; color:white; padding:0.3rem 0.6rem; border-radius:5px; margin:0.2rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Projet : Gestion des Courriers</h1>
+        <p>Application web pour gérer les courriers Départ et Arrivée</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Présentation du projet</h2>
+            <p>Ce projet consiste à développer une application web permettant de gérer efficacement les courriers dans un environnement professionnel. L'application offre des fonctionnalités adaptées aux besoins des utilisateurs, selon leur rôle et le type de courrier.</p>
+        </section>
+
+        <section>
+            <h2>Fonctionnalités principales</h2>
+            <ul>
+                <li>Gestion des courriers <strong>Arrivée</strong> et <strong>Départ</strong>.</li>
+                <li>Ajout, modification, suppression et archivage des courriers.</li>
+                <li>Affectation des courriers aux <strong>services</strong> et <strong>bureaux</strong>.</li>
+                <li>Page d'accueil personnalisée selon le rôle de l'utilisateur.</li>
+                <li>Tableaux interactifs avec sélection multiple et boutons d’action.</li>
+                <li>Formulaires dynamiques avec validation et date automatique.</li>
+                <li>Navigation fluide entre les sections : Accueil, Courriers, Archives, Référentiel.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Technologies utilisées</h2>
+            <div class="technologies">
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>EJS</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>MySQL / SQLite</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Organisation du projet</h2>
+            <p>Le projet est structuré en plusieurs dossiers pour séparer les responsabilités :</p>
+            <ul>
+                <li><strong>controllers/</strong> : logique de traitement des requêtes.</li>
+                <li><strong>models/</strong> : gestion de la base de données.</li>
+                <li><strong>views/</strong> : pages EJS affichées aux utilisateurs.</li>
+                <li><strong>public/</strong> : fichiers CSS, JS et images.</li>
+                <li><strong>database/</strong> : scripts et fichiers de base de données.</li>
+            </ul>
+          
+        </section>
+
+        <section>
+            <h2>CRUD et gestion des données</h2>
+            <p>L’application implémente le concept <strong>CRUD</strong> (Create, Read, Update, Delete) pour toutes les entités :</p>
+            <ul>
+                <li>Créer des courriers et des utilisateurs.</li>
+                <li>Afficher les listes de courriers et utilisateurs.</li>
+                <li>Modifier les informations et réaffecter les courriers.</li>
+                <li>Supprimer ou archiver les éléments selon les besoins.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Interface utilisateur</h2>
+            <p>L’interface est simple et intuitive :</p>
+            <ul>
+                <li>Tableaux interactifs pour visualiser les courriers.</li>
+                <li>Boutons d’action selon le rôle de l’utilisateur.</li>
+                <li>Formulaires dynamiques et modals pour gérer les données en temps réel.</li>
+            </ul>
+            
+        </section>
+    </main>
+</body>
+</html>
